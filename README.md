@@ -1,5 +1,5 @@
 
- Simple React Redux testing with Jest
+ Basic React Redux testing with Jest
 # clone our repo
 # --depth 1 removes all but one .git commit history
 git clone --depth 1 https://github.com/invegat/basic-jest-testing.git
