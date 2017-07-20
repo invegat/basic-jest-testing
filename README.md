@@ -5,7 +5,7 @@
 git clone --depth 1 https://github.com/invegat/basic-jest-testing.git
 
 # change directory to our repo
-cd react-redux-jest-testing
+cd basic-jest-testing
 
 # install the repo with yarn
 yarn install
