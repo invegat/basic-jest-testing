@@ -5,7 +5,7 @@ import React from 'react'
 describe('<Product />', () => {
     let car = "Mark's honda car"
     var wrapper = shallow(<Product name='insight' cost={500} description={car} />)
-    test('Has exactly on h2 tag', () => {
+    test('Has exactly one h2 tag', () => {
         expect(wrapper.find('h2').length)
         .toBe(1)
     })

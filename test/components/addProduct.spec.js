@@ -9,7 +9,7 @@ describe('<AddProduct />', () => {
         wrapper.find('button').simulate('click')
         expect(handleClick).toHaveBeenCalledTimes(1)
     })
-    test('Has exactly on h2 tag', () => {
+    test('Has exactly one h2 tag', () => {
         expect(wrapper.find('h2'))
             .toHaveLength(1)
     })
